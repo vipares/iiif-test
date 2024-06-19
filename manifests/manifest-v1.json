@@ -1,75 +1,110 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://vipares.github.io/iiif-test/manifests/manifest-v1.json",
-  "@type" : "sc:Manifest",
-  "label" : "Spad XIII",
-  "metadata" : [ ],
-  "description" : [ {
-    "@value" : "The fast and rugged Spad XIII was among the most successful fighters of World War I, flown by some of the most famous air heroes of the war, including Guynemer, Fonck, Nungesser, Lufbery, Luke, and Rickenbacker.",
-    "@language" : "en"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "Smithsonian's National Air and Space Museum",
-  "sequences" : [ {
-    "@id" : "http://fd68e5a2-f32f-4d96-9912-dbf47ea7a63c",
-    "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
-    } ],
-    "canvases" : [ {
-      "@id" : "http://8e062a52-25e2-40c2-8c0e-1368e8685e43",
-      "@type" : "sc:Canvas",
-      "label" : "Spad XIII",
-      "height" : 696,
-      "width" : 1024,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://2e314f1e-79ae-46e7-a1e7-80f1a85bea24",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/nasm-2018-10135-s/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/nasm-2018-10135-s",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
-          },
-          "height" : 696,
-          "width" : 1024
-        },
-        "on" : "http://8e062a52-25e2-40c2-8c0e-1368e8685e43"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://e8750801-741f-4ccb-a10b-653e82a86dee",
-      "@type" : "sc:Canvas",
-      "label" : "22nd Aero Squadron Emblem",
-      "height" : 695,
-      "width" : 1024,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://fcd3d5b7-14c7-45ba-8ac6-d7d53b4816d7",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/nasm-2018-10138-s/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/nasm-2018-10138-s",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
-          },
-          "height" : 695,
-          "width" : 1024
-        },
-        "on" : "http://e8750801-741f-4ccb-a10b-653e82a86dee"
-      } ],
-      "related" : ""
-    } ]
-  } ],
-  "structures" : [ ]
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://e8ec07e0-b160-4863-b55f-a450872847e8",
+	"@type": "sc:Manifest",
+	"label": "Spad XIII",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "The fast and rugged Spad XIII was among the most successful fighters of World War I, flown by some of the most famous air heroes of the war, including Guynemer, Fonck, Nungesser, Lufbery, Luke, and Rickenbacker.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "Smithsonian's National Air and Space Museum",
+	"sequences": [
+		{
+			"@id": "http://fd68e5a2-f32f-4d96-9912-dbf47ea7a63c",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://8e062a52-25e2-40c2-8c0e-1368e8685e43",
+					"@type": "sc:Canvas",
+					"label": "Spad XIII",
+					"height": 696,
+					"width": 1024,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2e314f1e-79ae-46e7-a1e7-80f1a85bea24",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/nasm-2018-10135-s/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/nasm-2018-10135-s",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 696,
+								"width": 1024
+							},
+							"on": "http://8e062a52-25e2-40c2-8c0e-1368e8685e43"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://e8750801-741f-4ccb-a10b-653e82a86dee",
+					"@type": "sc:Canvas",
+					"label": "22nd Aero Squadron Emblem",
+					"height": 695,
+					"width": 1024,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://fcd3d5b7-14c7-45ba-8ac6-d7d53b4816d7",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/nasm-2018-10138-s/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/nasm-2018-10138-s",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 695,
+								"width": 1024
+							},
+							"on": "http://e8750801-741f-4ccb-a10b-653e82a86dee"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [
+		{
+			"@id": "http://example.org/iiif/book1/range/top",
+			"@type": "sc:Range",
+			"label": "Table of Content",
+			"viewingHint": "top",
+			"ranges": [
+				"http://example.org/iiif/book1/range/intro"
+			]
+		},
+		{
+			"@id": "http://example.org/iiif/book1/range/intro",
+			"@type": "sc:Range",
+			"label": "Introduction",
+			"canvases": [
+				"http://8e062a52-25e2-40c2-8c0e-1368e8685e43"
+			]
+		}
+	]
 }
