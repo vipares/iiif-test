@@ -1,0 +1,13 @@
+{
+  "id" : "https://vipares.github.io/iiif-test/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in vipares/iiif-test project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://vipares.github.io/iiif-test/manifests/manifest-v1.json",
+    "label" : "Spad XIII"
+  } ]
+}
