@@ -13,5 +13,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://vipares.github.io/iiif-test/manifests/manifest2.json",
     "label" : "Spad XIII"
+  }, {
+    "id" : "https://vipares.github.io/iiif-test/manifests/manifest-bensen.json",
+    "label" : {
+      "en" : [ "ASQ Closer Look" ]
+    },
+    "type" : "Manifest"
   } ]
 }
