@@ -1,0 +1,276 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://vipares.github.io/iiif-test/manifests/manifest-bensen.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "ASQ Closer Look" ]
+  },
+  "thumbnail" : [ {
+    "id" : "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2023-00079-000001&max=500",
+    "type" : "Image",
+    "format" : "image/jpeg",
+    "height" : 375,
+    "width" : 500
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6",
+    "type" : "Canvas",
+    "height" : 8700,
+    "width" : 11600,
+    "label" : {
+      "en" : [ "Bensen Gyrocopter" ]
+    },
+    "summary" : {
+      "en" : [ "The B-8M, designed by Igor Bensen, became one of the most popular homebuilt aircraft of the twentieth century. Unlike a helicopter, the Gyrocopter cannot hover or take off vertically, but it can make nearly vertical descents. This powered Gyrocopter variant of the B-8 Gyroglider first flew in 1957. " ]
+    },
+    "rights" : "http://creativecommons.org/licenses/by-nc/4.0/",
+    "thumbnail" : [ {
+      "id" : "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2023-00079-000001&max=500",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 375,
+      "width" : 500
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6/annotation-page/adf92034-0079-4d2d-a29a-9963e31bdbf3",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/annotation/02a499ad-bd95-486e-9970-508bf9ad4d17",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "NASM2023-00079" ]
+        },
+        "thumbnail" : [ {
+          "id" : "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2023-00079-000001&max=500",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 375,
+          "width" : 500
+        } ],
+        "motivation" : "painting",
+        "target" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6",
+        "body" : {
+          "id" : "https://ids.si.edu/ids/iiif/NASM-NASM2023-00079-000001/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 8700,
+          "width" : 11600,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.si.edu/ids/iiif/NASM-NASM2023-00079-000001",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 11600,
+            "height" : 8700,
+            "tiles" : [ {
+              "width" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg" ],
+              "supports" : [ "sizeByH", "sizeByW", "sizeByForcedWh" ]
+            } ],
+            "id" : "https://ids.si.edu/ids/iiif/NASM-NASM2023-00079-000001"
+          } ]
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6/annotations/d0950f6a-b97d-42f9-91bd-7ac42361c15e",
+      "type" : "AnnotationPage",
+      "label" : {
+        "en" : [ "Bensen Gyrocopter Facts" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6/annotations/d0950f6a-b97d-42f9-91bd-7ac42361c15e/annotation/5ead2e93-b3b1-4d4c-8002-66dc5824600d",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "Rotor" ]
+        },
+        "motivation" : "describing",
+        "target" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6#xywh=5951,1563,2765,961",
+        "body" : {
+          "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6/annotations/d0950f6a-b97d-42f9-91bd-7ac42361c15e/annotation/5ead2e93-b3b1-4d4c-8002-66dc5824600d/html/en/187bf711-9e7c-4564-8463-c33a088c5bc4",
+          "type" : "TextualBody",
+          "format" : "text/html",
+          "language" : "en",
+          "value" : "Rotor diameter of 20 feet",
+          "textGranularity" : "block"
+        }
+      }, {
+        "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6/annotations/d0950f6a-b97d-42f9-91bd-7ac42361c15e/annotation/73c38c9b-003f-449c-a673-3de5ecabee8e",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "Propeller" ]
+        },
+        "motivation" : "describing",
+        "target" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6#xywh=2860,4057,1263,3715",
+        "body" : {
+          "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6/annotations/d0950f6a-b97d-42f9-91bd-7ac42361c15e/annotation/73c38c9b-003f-449c-a673-3de5ecabee8e/html/en/eb0c0edd-da53-4869-bf2c-3af637abf311",
+          "type" : "TextualBody",
+          "format" : "text/html",
+          "language" : "en",
+          "value" : "The pusher propeller was powered by a 72-horesepower piston engine. ",
+          "textGranularity" : "block"
+        }
+      }, {
+        "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6/annotations/d0950f6a-b97d-42f9-91bd-7ac42361c15e/annotation/7985b5c6-860a-47de-aad7-29bcaec56980",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "Wheels" ]
+        },
+        "motivation" : "describing",
+        "target" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6#xywh=1630,6824,1750,1156",
+        "body" : {
+          "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6/annotations/d0950f6a-b97d-42f9-91bd-7ac42361c15e/annotation/7985b5c6-860a-47de-aad7-29bcaec56980/html/en/52301b2f-d120-4f8b-a00b-ba9edf9e88df",
+          "type" : "TextualBody",
+          "format" : "text/html",
+          "language" : "en",
+          "value" : "No equipment had to be changed for the conversion from aircraft to automobile. On the road, the B-8M could reach speeds of up to 35 mph.",
+          "textGranularity" : "block"
+        }
+      }, {
+        "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6/annotations/d0950f6a-b97d-42f9-91bd-7ac42361c15e/annotation/e825f850-4fd6-4ffa-8b86-0bbbe5cf1d0d",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "Controls" ]
+        },
+        "motivation" : "describing",
+        "target" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6#xywh=5313,4082,979,3003",
+        "body" : {
+          "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/12007b69-6bf6-43b2-8816-66e967b88ff6/annotations/d0950f6a-b97d-42f9-91bd-7ac42361c15e/annotation/e825f850-4fd6-4ffa-8b86-0bbbe5cf1d0d/html/en/aa190560-add6-4686-b821-f7537d035360",
+          "type" : "TextualBody",
+          "format" : "text/html",
+          "language" : "en",
+          "value" : "Controls consisted of steering bar, a stick with a twist-grip throttle, and foot pedals for the rudder.",
+          "textGranularity" : "block"
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/b32f43d3-c0a1-43cb-8a6e-3dcbd6c6c6b9",
+    "type" : "Canvas",
+    "height" : 8700,
+    "width" : 11600,
+    "label" : {
+      "en" : [ "Propeller and Rotor" ]
+    },
+    "summary" : {
+      "en" : [ "For takeoff, the gyrocopter required 300 feet of runway." ]
+    },
+    "rights" : "http://creativecommons.org/licenses/by-nc/4.0/",
+    "thumbnail" : [ {
+      "id" : "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2023-00084-000001&max_w=500",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 375,
+      "width" : 500
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/b32f43d3-c0a1-43cb-8a6e-3dcbd6c6c6b9/annotation-page/4b8dfdec-dcf1-46d3-807c-dd605030e47c",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/annotation/0d6a8320-bea4-421a-a8da-1b1ae60ccdc8",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "NASM2023-00084" ]
+        },
+        "thumbnail" : [ {
+          "id" : "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2023-00084-000001&max_w=500",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 375,
+          "width" : 500
+        } ],
+        "motivation" : "painting",
+        "target" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/b32f43d3-c0a1-43cb-8a6e-3dcbd6c6c6b9",
+        "body" : {
+          "id" : "https://ids.si.edu/ids/iiif/NASM-NASM2023-00084-000001/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 8700,
+          "width" : 11600,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.si.edu/ids/iiif/NASM-NASM2023-00084-000001",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 11600,
+            "height" : 8700,
+            "tiles" : [ {
+              "width" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8 ],
+              "height" : 512
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg" ],
+              "supports" : [ "sizeByH", "sizeByW", "sizeByForcedWh" ]
+            } ],
+            "id" : "https://ids.si.edu/ids/iiif/NASM-NASM2023-00084-000001"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/0f3da273-0122-4fe9-a2e6-3ea6ac83264f",
+    "type" : "Canvas",
+    "height" : 2832,
+    "width" : 2232,
+    "label" : {
+      "en" : [ "Bensen at Smithsonian" ]
+    },
+    "summary" : {
+      "en" : [ "Louis Casey (left) and Paul E. Garber (center) present certificate to Igor Bensen at controls of aircraft." ]
+    },
+    "rights" : "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "thumbnail" : [ {
+      "id" : "https://ids.si.edu/ids/deliveryService?id=NASM-A19690355000_AER02&max_w=500",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 634,
+      "width" : 500
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/0f3da273-0122-4fe9-a2e6-3ea6ac83264f/annotation-page/84664be3-181e-432d-a26e-738bc6ec094d",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/annotation/cdbd5fef-c2e2-4b95-adfd-6af3fdec3829",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "74-2693" ]
+        },
+        "thumbnail" : [ {
+          "id" : "https://ids.si.edu/ids/deliveryService?id=NASM-A19690355000_AER02&max_w=500",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 634,
+          "width" : 500
+        } ],
+        "motivation" : "painting",
+        "target" : "https://example.org/ce1c7805-4da4-4b19-b289-cf628a4d5ce2/canvas/0f3da273-0122-4fe9-a2e6-3ea6ac83264f",
+        "body" : {
+          "id" : "https://ids.si.edu/ids/iiif/NASM-A19690355000_AER02/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2832,
+          "width" : 2232,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.si.edu/ids/iiif/NASM-A19690355000_AER02",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 2232,
+            "height" : 2832,
+            "tiles" : [ {
+              "width" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8 ],
+              "height" : 512
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg" ],
+              "supports" : [ "sizeByH", "sizeByW", "sizeByForcedWh" ]
+            } ],
+            "id" : "https://ids.si.edu/ids/iiif/NASM-A19690355000_AER02"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
