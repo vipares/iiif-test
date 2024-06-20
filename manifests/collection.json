@@ -19,5 +19,9 @@
       "en" : [ "ASQ Closer Look" ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://vipares.github.io/iiif-test/manifests/manifest_v1.json",
+    "label" : "Closer Look with ASQ"
   } ]
 }
