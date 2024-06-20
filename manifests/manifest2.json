@@ -3,6 +3,11 @@
   "@id" : "https://vipares.github.io/iiif-test/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Spad XIII",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/173271989/01bd16d6b2db981427f39bf56252ac6d/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "The fast and rugged Spad XIII was among the most successful fighters of World War I, flown by some of the most famous air heroes of the war, including Guynemer, Fonck, Nungesser, Lufbery, Luke, and Rickenbacker.",
@@ -41,6 +46,11 @@
           "width" : 1024
         },
         "on" : "http://8e062a52-25e2-40c2-8c0e-1368e8685e43"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://vipares.github.io/iiif-test/annotations/afe77f9873c9afaf7fc8546ddea8a34e.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
