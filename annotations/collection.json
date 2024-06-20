@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://vipares.github.io/iiif-test/annotations/afe77f9873c9afaf7fc8546ddea8a34e.json" ],
+  "@id" : "https://vipares.github.io/iiif-test/annotations/collection.json",
+  "label" : "All annotations loaded in vipares/iiif-test project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
