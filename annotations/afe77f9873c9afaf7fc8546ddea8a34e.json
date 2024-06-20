@@ -1,0 +1,76 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Lt. Brooks nicknamed the plane after the college attended by his wife. It was the fourth of his airplanes using this moniker, hence Smith IV.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Lt. Brooks nicknamed the plane after the college attended by his wife. It was the fourth of his airplanes using this moniker, hence Smith IV.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/173271989",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-06-20T19:23:59",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1718911439994",
+    "dcterms:modified" : "2024-06-20T19:23:59",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://vipares.github.io/iiif-test/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=450,338,65,44"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M459.38436,344.72145c6.04102,-3.70437 14.56286,-6.46289 23.126,-6.4596v0v0c8.56314,0.0033 16.02307,2.58385 23.126,6.4596c7.10293,3.87575 9.86375,9.78164 9.5791,15.59484c-0.28465,5.8132 -3.61477,11.53371 -9.5791,15.59484c-5.96433,4.06113 -14.56286,6.46289 -23.126,6.4596c-8.56314,-0.0033 -17.09088,-2.41165 -23.126,-6.4596c-6.03512,-4.04795 -9.57763,-9.7355 -9.5791,-15.59484c-0.00147,-5.85934 3.53808,-11.89047 9.5791,-15.59484z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_3f885161-d792-4e88-9f24-4deb2bee76d4\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8e062a52-25e2-40c2-8c0e-1368e8685e43"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Emblem for 22nd Aero Squadron, U.S. Army Air Service",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Emblem for 22nd Aero Squadron, U.S. Army Air Service</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "World War I",
+      "@type" : "oa:Tag",
+      "chars" : "World War I"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/173271989",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2024-06-20T19:11:23",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1718910683709",
+    "dcterms:modified" : "2024-06-20T19:17:06",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://vipares.github.io/iiif-test/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=527,355,94,86"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M527.42345,354.71173h47.23917v0h47.23917v43.21837v43.21837h-47.23917h-47.23917v-43.21837z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_e6dff486-b91c-4f98-a724-af210b05ec4c\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8e062a52-25e2-40c2-8c0e-1368e8685e43"
+    } ]
+  } ],
+  "@id" : "https://vipares.github.io/iiif-test/annotations/afe77f9873c9afaf7fc8546ddea8a34e.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
