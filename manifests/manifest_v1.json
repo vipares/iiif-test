@@ -1,0 +1,117 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://vipares.github.io/iiif-test/manifests/manifest_v1.json",
+  "@type" : "sc:Manifest",
+  "label" : "Closer Look with ASQ",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "The B-8M, designed by Igor Bensen, became one of the most popular homebuilt aircraft of the twentieth century. This powered Gyrocopter variant of the B-8 Gyroglider first flew in 1957. ",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc/4.0/",
+  "attribution" : "Smithsonian's National Air and Space Museum",
+  "sequences" : [ {
+    "@id" : "http://d59a05a0-632b-4509-980d-b996e9ed82ce",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://63734695-ca94-404c-b07e-32d8d7d32696",
+      "@type" : "sc:Canvas",
+      "label" : "Bensen Gyrocopter",
+      "height" : 8700,
+      "width" : 11600,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://15adb74f-f6e9-469c-8825-351049c66602",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ids.si.edu/ids/iiif/NASM-NASM2023-00079-000001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.si.edu/ids/iiif/NASM-NASM2023-00079-000001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg" ],
+              "supports" : [ "sizeByH", "sizeByW", "sizeByForcedWh" ]
+            } ]
+          },
+          "height" : 8700,
+          "width" : 11600
+        },
+        "on" : "http://63734695-ca94-404c-b07e-32d8d7d32696"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7577a033-d634-459a-ad1f-bb6a149174cd",
+      "@type" : "sc:Canvas",
+      "label" : "Propeller and Rotor",
+      "height" : 8700,
+      "width" : 11600,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://18a15ae7-e572-457b-bcd6-6e27add3fb4c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ids.si.edu/ids/iiif/NASM-NASM2023-00084-000001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.si.edu/ids/iiif/NASM-NASM2023-00084-000001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg" ],
+              "supports" : [ "sizeByH", "sizeByW", "sizeByForcedWh" ]
+            } ]
+          },
+          "height" : 8700,
+          "width" : 11600
+        },
+        "on" : "http://7577a033-d634-459a-ad1f-bb6a149174cd"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3530e55b-edff-44e6-9ac5-1e23f57eb360",
+      "@type" : "sc:Canvas",
+      "label" : "Bensen at Smithsonian",
+      "height" : 2832,
+      "width" : 2232,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://923979c7-3d9b-4262-9502-32f0123d176d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ids.si.edu/ids/iiif/NASM-A19690355000_AER02/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.si.edu/ids/iiif/NASM-A19690355000_AER02",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg" ],
+              "supports" : [ "sizeByH", "sizeByW", "sizeByForcedWh" ]
+            } ]
+          },
+          "height" : 2832,
+          "width" : 2232
+        },
+        "on" : "http://3530e55b-edff-44e6-9ac5-1e23f57eb360"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Label",
+        "value" : "Value"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ],
+  "thumbnail" : {
+    "@id" : "http://63734695-ca94-404c-b07e-32d8d7d32696"
+  }
+}
