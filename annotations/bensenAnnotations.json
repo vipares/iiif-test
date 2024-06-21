@@ -1,0 +1,207 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "The pusher propeller was powered by a 72-horesepower piston engine.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>The pusher propeller was powered by a 72-horesepower piston engine.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/173271989",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-06-21T00:12:35",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1718928755641",
+    "dcterms:modified" : "2024-06-21T00:24:54",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://vipares.github.io/iiif-test/manifests/manifest_v1.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=3064,4264,795,2814"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3271.98762,4654.41818c88.99328,-230.63963 201.82104,-398.62834 300.89648,-390.41365v0v0c99.07544,8.21469 172.10532,179.7906 234.33057,433.64813c62.22525,253.85753 63.74339,633.15074 30.49699,1003.68471c-33.2464,370.53397 -101.25732,732.30872 -191.20131,985.77641c-89.94399,253.46769 -201.82104,398.62834 -300.89648,390.41365c-99.07544,-8.21469 -185.34927,-169.80472 -234.33057,-433.64813c-48.9813,-263.84341 -60.67008,-629.94019 -30.49699,-1003.68471c30.17309,-373.74452 102.20803,-755.13678 191.20131,-985.77641z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:4.618200721849529,&quot;annotation&quot;:null,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"ellipse_0ab8b562-2abf-48d4-b6c9-ba04170fd1f1\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://63734695-ca94-404c-b07e-32d8d7d32696"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Air flow created by the forward motion of a gyrocopter causes the unpowered blades to autorotate and generate lift.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Air flow created by the forward motion of a gyrocopter causes the unpowered blades to autorotate and generate lift.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/173271989",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-06-21T00:22:06",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1718929326235",
+    "dcterms:modified" : "2024-06-21T00:24:17",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://vipares.github.io/iiif-test/manifests/manifest_v1.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=7390,441,3897,1202"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M7389.54296,440.89248h1948.68331v0h1948.68331v601.08997v601.08997h-1948.68331h-1948.68331v-601.08997z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"rectangle_15270cb3-e912-49df-bd64-ce926437d8fa\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://63734695-ca94-404c-b07e-32d8d7d32696"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "No equipment had to be changed for the conversion from aircraft to automobile. On the road, the B-8M could reach speeds of up to 35 mph.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>No equipment had to be changed for the conversion from aircraft to automobile. On the road, the B-8M could reach speeds of up to 35 mph.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/173271989",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-06-21T00:15:34",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1718928934432",
+    "dcterms:modified" : "2024-06-21T00:26:02",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://vipares.github.io/iiif-test/manifests/manifest_v1.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1976,6592,1078,1228"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1975.68781,6591.81466h539.12415v0h539.12415v614.13541v614.13541h-539.12415h-539.12415v-614.13541z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"rectangle_b8029456-dc8b-4a03-9554-e655108ad9ad\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://63734695-ca94-404c-b07e-32d8d7d32696"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Standing just slightly over 6 feet, with a rotor diameter of 20 feet, the B-8M could easily be stored in a garage.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Standing just slightly over 6 feet, with a rotor diameter of 20 feet, the B-8M could easily be stored in a garage.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/173271989",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-06-21T00:21:35",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1718929295224",
+    "dcterms:modified" : "2024-06-21T00:24:36",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://vipares.github.io/iiif-test/manifests/manifest_v1.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=3032,2633,3166,1183"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3032.36797,2632.52542h1582.75888v0h1582.75888v591.30589v591.30589h-1582.75888h-1582.75888v-591.30589z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"rectangle_5f8549c9-fa83-4461-ba19-d9d8fd108194\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://63734695-ca94-404c-b07e-32d8d7d32696"
+    }, {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://vipares.github.io/iiif-test/manifests/manifest_v1.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=3880,2972,2,2"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3880.32119,2971.7067h1v0h1v1v1h-1h-1v-1z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_d2537473-7211-4bee-bb24-1341c0e7318d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"15\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://63734695-ca94-404c-b07e-32d8d7d32696"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "The controls consisted of steering bar, a stick with a twist-grip throttle, and foot pedals for the rudder.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>The controls consisted of steering bar, a stick with a twist-grip throttle, and foot pedals for the rudder.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/173271989",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-06-21T00:17:15",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1718929035882",
+    "dcterms:modified" : "2024-06-21T00:25:11",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://vipares.github.io/iiif-test/manifests/manifest_v1.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=5047,4796,2039,2795"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5076.02095,5475.50156c67.62785,-291.8258 223.92735,-551.61865 449.48877,-641.82986v0v0c225.56142,-90.21121 485.69243,-10.11805 768.39477,153.477c282.70234,163.59505 501.18387,498.01231 637.18554,858.87912c136.00167,360.86681 189.5235,748.18316 132.72166,1061.16149c-56.80184,312.97833 -223.92735,551.61865 -449.48877,641.82986c-225.56142,90.21121 -509.55873,31.9933 -768.39477,-153.477c-258.83604,-185.4703 -492.51079,-498.19299 -637.18554,-858.87912c-144.67475,-360.68613 -200.34951,-769.33569 -132.72166,-1061.16149z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:-21.850037891252118,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"ellipse_1d2c9f37-2b64-4866-9b27-ea884e93ccde\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"39.1363\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://63734695-ca94-404c-b07e-32d8d7d32696"
+    }, {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://vipares.github.io/iiif-test/manifests/manifest_v1.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=5347,4888,18,18"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5349.93252,4890.73324c1.70388,-1.54939 4.10747,-2.70318 6.52272,-2.7018v0v0c2.41524,0.00138 4.51933,1.08072 6.52272,2.7018c2.00339,1.62108 2.78208,4.09128 2.7018,6.52272c-0.08029,2.43144 -1.01955,4.8241 -2.7018,6.52272c-1.68225,1.69861 -4.10747,2.70318 -6.52272,2.7018c-2.41524,-0.00138 -4.8205,-1.0087 -6.52272,-2.7018c-1.70221,-1.6931 -2.70138,-4.07198 -2.7018,-6.52272c-0.00042,-2.45073 0.99792,-4.97332 2.7018,-6.52272z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_12862b27-5438-4cc0-aebd-a473c4061580\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://63734695-ca94-404c-b07e-32d8d7d32696"
+    } ]
+  } ],
+  "@id" : "https://vipares.github.io/iiif-test/annotations/bensenAnnotations.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
