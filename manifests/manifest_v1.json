@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://vipares.github.io/iiif-test/manifests/manifest_v1.json",
   "@type" : "sc:Manifest",
-  "label" : "Closer Look with ASQ",
+  "label" : "Closer Look",
   "metadata" : [ ],
   "description" : [ {
     "@value" : "The B-8M, designed by Igor Bensen, became one of the most popular homebuilt aircraft of the twentieth century. This powered Gyrocopter variant of the B-8 Gyroglider first flew in 1957. ",
@@ -45,7 +45,11 @@
         },
         "on" : "http://63734695-ca94-404c-b07e-32d8d7d32696"
       } ],
-      "related" : ""
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Summary",
+        "value" : "Unlike a helicopter, the Gyrocopter cannot hover or take off vertically, but it can make nearly vertical descents.."
+      } ]
     }, {
       "@id" : "http://7577a033-d634-459a-ad1f-bb6a149174cd",
       "@type" : "sc:Canvas",
@@ -74,7 +78,11 @@
         },
         "on" : "http://7577a033-d634-459a-ad1f-bb6a149174cd"
       } ],
-      "related" : ""
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Summary",
+        "value" : "For takeoff, the gyrocopter required 300 feet of runway."
+      } ]
     }, {
       "@id" : "http://3530e55b-edff-44e6-9ac5-1e23f57eb360",
       "@type" : "sc:Canvas",
@@ -105,8 +113,8 @@
       } ],
       "related" : "",
       "metadata" : [ {
-        "label" : "Label",
-        "value" : "Value"
+        "label" : "Summary",
+        "value" : "Louis Casey (left) and Paul E. Garber (center) present certificate to Igor Bensen at controls of aircraft."
       } ]
     } ]
   } ],
