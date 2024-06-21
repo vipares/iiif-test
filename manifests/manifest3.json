@@ -1,6 +1,6 @@
 {
   "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://vipares.github.io/iiif-test/manifests/manifest_v1.json",
+  "@id" : "https://vipares.github.io/iiif-test/manifests/manifest3.json",
   "@type" : "sc:Manifest",
   "label" : "Closer Look",
   "service" : {
