@@ -3,6 +3,11 @@
   "@id" : "https://vipares.github.io/iiif-test/manifests/manifest_v1.json",
   "@type" : "sc:Manifest",
   "label" : "Closer Look",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/173271989/9df02e9941031407eb3b7d48c2bf2ca6/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "The B-8M, designed by Igor Bensen, became one of the most popular homebuilt aircraft of the twentieth century. This powered Gyrocopter variant of the B-8 Gyroglider first flew in 1957. ",
@@ -44,6 +49,11 @@
           "width" : 11600
         },
         "on" : "http://63734695-ca94-404c-b07e-32d8d7d32696"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://vipares.github.io/iiif-test/annotations/bensenAnnotation",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : "",
       "metadata" : [ {
